@@ -8,3 +8,10 @@ text = "Prem"
 
 print("First character:", text[0])
 print("Last character:", text[-1])
+
+text = "I am learning Python"
+
+if "Python" in text:
+    print("Word found")
+else:
+    print("Word not found")
