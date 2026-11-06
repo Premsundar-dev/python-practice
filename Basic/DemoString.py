@@ -15,3 +15,11 @@ if "Python" in text:
     print("Word found")
 else:
     print("Word not found")
+    
+    
+
+text = "I love Java"
+
+new_text = text.replace("Java", "Python")
+
+print(new_text)
