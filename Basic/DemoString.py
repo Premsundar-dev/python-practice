@@ -9,6 +9,7 @@ text = "Prem"
 print("First character:", text[0])
 print("Last character:", text[-1])
 
+
 text = "I am learning Python"
 
 if "Python" in text:
@@ -24,8 +25,16 @@ new_text = text.replace("Java", "Python")
 
 print(new_text)
 
+
 text = "I am learning Python"
 
 count = text.count(" ")
 
 print("Total spaces:", count)
+
+
+text = "i am learning python"
+
+result = text.title()
+
+print(result)
