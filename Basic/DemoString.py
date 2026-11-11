@@ -43,3 +43,8 @@ if text.startswith("Python"):
     print("The string starts with Python")
 else:
     print("The string does not start with Python")
+
+
+text = "Hello Python"
+position = text.find("P")
+print("Character position:", position)
