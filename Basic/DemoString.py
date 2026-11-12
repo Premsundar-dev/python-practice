@@ -48,3 +48,12 @@ else:
 text = "Hello Python"
 position = text.find("P")
 print("Character position:", position)
+
+
+text = "Python"
+reverse = ""
+
+for ch in text:
+    reverse = ch + reverse
+print("Original string:", text)
+print("Reversed string:", reverse)
