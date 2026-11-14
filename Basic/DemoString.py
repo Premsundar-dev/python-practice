@@ -62,3 +62,10 @@ print("Reversed string:", reverse)
 text = "programming"
 count = text.count("m")
 print("Character m appears:", count, "times")
+
+
+text = "12345"
+if text.isdigit():
+    print("String contains only digits")
+else:
+    print("String contains other characters")
