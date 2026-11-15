@@ -69,3 +69,10 @@ if text.isdigit():
     print("String contains only digits")
 else:
     print("String contains other characters")
+
+
+text = "HELLO PYTHON"
+if text.isupper():
+    print("String is in uppercase")
+else:
+    print("String is not in uppercase")
