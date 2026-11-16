@@ -76,3 +76,9 @@ if text.isupper():
     print("String is in uppercase")
 else:
     print("String is not in uppercase")
+
+
+text = "python programming"
+result = text.capitalize()
+print("Original string:", text)
+print("Updated string:", result)
