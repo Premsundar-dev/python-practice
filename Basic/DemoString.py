@@ -82,3 +82,9 @@ text = "python programming"
 result = text.capitalize()
 print("Original string:", text)
 print("Updated string:", result)
+
+
+text = "Hello Python"
+result = text.replace("o", "")
+print("Original string:", text)
+print("Updated string:", result)
