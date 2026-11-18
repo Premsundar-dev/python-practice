@@ -88,3 +88,8 @@ text = "Hello Python"
 result = text.replace("o", "")
 print("Original string:", text)
 print("Updated string:", result)
+
+
+text = "I love learning Python"
+words = text.split()
+print(words)
