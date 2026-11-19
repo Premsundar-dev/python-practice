@@ -93,3 +93,10 @@ print("Updated string:", result)
 text = "I love learning Python"
 words = text.split()
 print(words)
+
+
+text = "I am learning Python"
+if text.endswith("Python"):
+    print("String ends with Python")
+else:
+    print("String does not end with Python")
