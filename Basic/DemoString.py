@@ -100,3 +100,8 @@ if text.endswith("Python"):
     print("String ends with Python")
 else:
     print("String does not end with Python")
+
+
+text = "I am learning Python programming"
+words = text.split()
+print("Total number of words:", len(words))
