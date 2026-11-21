@@ -105,3 +105,9 @@ else:
 text = "I am learning Python programming"
 words = text.split()
 print("Total number of words:", len(words))
+
+
+text = "Hello Python"
+result = text.swapcase()
+print("Original string:", text)
+print("Updated string:", result)
