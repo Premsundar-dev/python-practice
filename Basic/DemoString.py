@@ -111,3 +111,15 @@ text = "Hello Python"
 result = text.swapcase()
 print("Original string:", text)
 print("Updated string:", result)
+
+
+text = "Python"
+result = text[1:]
+print("Original string:", text)
+print("Updated string:", result)
+
+
+text = "Programming"
+result = text[:-1]
+print("Original string:", text)
+print("Updated string:", result)
