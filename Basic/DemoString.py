@@ -123,3 +123,10 @@ text = "Programming"
 result = text[:-1]
 print("Original string:", text)
 print("Updated string:", result)
+
+
+text = "banana"
+letter = "a"
+frequency = text.count(letter)
+print("Letter:", letter)
+print("Frequency:", frequency)
