@@ -130,3 +130,8 @@ letter = "a"
 frequency = text.count(letter)
 print("Letter:", letter)
 print("Frequency:", frequency)
+
+
+text = "Python"
+for ch in text:
+    print(ch)
