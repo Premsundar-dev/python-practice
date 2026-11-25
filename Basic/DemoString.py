@@ -135,3 +135,8 @@ print("Frequency:", frequency)
 text = "Python"
 for ch in text:
     print(ch)
+
+
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+print("Total words:", len(words))
