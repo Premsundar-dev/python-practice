@@ -140,3 +140,11 @@ for ch in text:
 sentence = input("Enter a sentence: ")
 words = sentence.split()
 print("Total words:", len(words))
+
+
+numbers = [12, 45, 23, 67, 34, 89, 10]
+largest = numbers[0]
+for num in numbers:
+    if num > largest:
+        largest = num       
+print("Largest number:", largest)
