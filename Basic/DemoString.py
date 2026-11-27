@@ -137,9 +137,9 @@ for ch in text:
     print(ch)
 
 
-sentence = input("Enter a sentence: ")
-words = sentence.split()
-print("Total words:", len(words))
+# sentence = input("Enter a sentence: ")
+# words = sentence.split()
+# print("Total words:", len(words))
 
 
 numbers = [12, 45, 23, 67, 34, 89, 10]
@@ -148,3 +148,15 @@ for num in numbers:
     if num > largest:
         largest = num       
 print("Largest number:", largest)
+
+
+numbers = [12, 7, 23, 44, 56, 9, 32, 18]
+even = 0
+odd = 0
+for num in numbers:
+   if num%2 == 0:
+    even += 1
+   else:
+    odd += 1
+print("Even numbers:", even)
+print("Odd numbers:", odd)
