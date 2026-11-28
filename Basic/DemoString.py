@@ -160,3 +160,12 @@ for num in numbers:
     odd += 1
 print("Even numbers:", even)
 print("Odd numbers:", odd)
+
+
+num = int(input("Enter a number: "))
+if num > 0:
+    print("Positive number")
+elif num < 0:
+    print("Negative number")
+else:
+    print("The number is zero")
